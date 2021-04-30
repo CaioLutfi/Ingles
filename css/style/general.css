@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+}
+
+
+#flexbox{
+    display: flex;
+    height: 600px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    background-color: #212529;
+}
+
+section{
+    background-color: rgb(128, 236, 39);
+    flex-grow:4;
+}
