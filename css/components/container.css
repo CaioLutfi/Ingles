@@ -1,21 +1,18 @@
-body{
-    box-sizing: border-box;
-}
-
-
 #flexbox{
     display: flex;
     height: 600px;
 }
 
 nav{
+    background-color: #302f2f;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex-grow:1;
-    background-color: #212529;
+    width: 100px;
 }
 
 section{
-    background-color: rgb(128, 236, 39);
-    flex-grow:4;
+    background-color: #464646;
+    flex-grow: 9;
 }

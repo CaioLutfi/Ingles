@@ -1,0 +1,17 @@
+body{
+    color: #fff;
+    font-size: 14px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    
+    /*essas linhas do link serão transferidas para o componente container*/
+    border-bottom: 2px ridge indianred;
+    padding: 8px;
+    margin: 2px 0;
+}
+a:hover{
+    color: rgb(205, 226, 17);
+}
